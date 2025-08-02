@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact the Naukri Notifications team for support, suggestions, or queries regarding Sarkari job updates." />
+  <title>Contact Us | Naukri Notifications</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0074cc;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #0074cc;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+    }
+
+    .branding img {
+      height: 80px;
+      width: 80px;
+      margin-right: 15px;
+      border-radius: 10px;
+    }
+
+    .site-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .site-title {
+      font-size: 36px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .tagline {
+      font-size: 16px;
+      color: #f2f2f2;
+      margin-top: 5px;
+    }
+
+    .nav-search-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .search-bar {
+      display: flex;
+    }
+
+    .search-bar input[type="text"] {
+      padding: 6px 10px;
+      border: none;
+      border-radius: 5px 0 0 5px;
+      font-size: 16px;
+    }
+
+    .search-bar button {
+      padding: 6px 12px;
+      border: none;
+      background-color: white;
+      color: #0074cc;
+      font-weight: bold;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+    }
+
+    .search-bar button:hover {
+      background-color: #e0e0e0;
+    }
+
+    .top-ad-space {
+      background-color: #f0f0f0;
+      color: black;
+      text-align: center;
+      padding: 30px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      gap: 20px;
+    }
+
+    .ad-space {
+      flex: 0 0 15%;
+      background-color: #f0f0f0;
+      height: 600px;
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .contact-section {
+      flex: 1;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-section h2 {
+      color: #0074cc;
+      font-size: 24px;
+      border-bottom: 2px solid #0074cc;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    .contact-section p {
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .contact-section form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+
+    .contact-section button {
+      background-color: #0074cc;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-section button:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      background-color: #003f7f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .header, .main-content {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .nav-search-container {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+      }
+
+      .nav-links a {
+        margin-left: 0;
+      }
+
+      .main-content {
+        padding: 15px;
+      }
+
+      .ad-space {
+        display: none;
+      }
+
+      .search-bar input[type="text"] {
+        width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="branding">
+      <img src="logo.png" alt="Naukri Notifications Logo" loading="lazy" />
+      <div class="site-text">
+        <div class="site-title">Naukri Notifications</div>
+        <div class="tagline">Get All Sarkari Job Updates In One Place</div>
+      </div>
+    </a>
+
+    <div class="nav-search-container">
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="results.html">Results</a>
+        <a href="admitcard.html">Admit Card</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <form class="search-bar" action="search.html" method="get">
+        <input type="text" name="query" placeholder="Search jobs, exams..." required />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <div class="top-ad-space">Ad Space (Horizontal Banner)</div>
+
+  <main class="main-content">
+    <div class="ad-space">Ad Space (Left)</div>
+
+    <div class="contact-section">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, suggestions, or issues related to the site, feel free to reach out to us using the form below:</p>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p style="margin-top: 20px;">You can also email us at <strong>support@naukrinotifications.com</strong></p>
+    </div>
+
+    <div class="ad-space">Ad Space (Right)</div>
+  </main>
+
+  <footer>
+    &copy; 2025 Naukri Notifications. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
